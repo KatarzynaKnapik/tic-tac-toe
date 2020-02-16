@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200|Quicksand:300&display=swap" rel="stylesheet"> 
+    <title>TIC-TAC-TOE</title>
+</head>
+<body>
+    <section class="players">
+        <div class="player" id="cross">
+            <div class="name">X</div>
+            <div class="score" id="score-x">-</div>
+        </div>
+        <div class="player" id="circle">
+            <div class="name">O</div>
+            <div class="score" id="score-o">-</div>
+        </div>
+    </section>
+
+    <section>
+        
+            <table class="tab">
+                <tr>
+                    <td><div id="one" class="content">X</div></td>
+                    <td><div id="two" class="content">X</div></td>
+                    <td><div id="three" class="content">X</div></td>
+                    
+                </tr>
+                <tr>
+                    <td><div id="four" class="content">X</div></td>
+                    <td><div id="five" class="content">X</div></td>
+                    <td><div id="six" class="content">X</div></td>
+                </tr>
+                <tr>
+                    <td><div id="seven" class="content">X</div></td>
+                    <td><div id="eight" class="content">X</div></td>
+                    <td><div id="nine" class="content">X</div></td>
+                </tr>
+            </table>
+            <button id="start">START</button>
+
+            <div id="winner"></div>
+        
+    </section>
+
+<script src="app.js"></script>    
+</body>
+</html>
